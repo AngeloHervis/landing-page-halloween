@@ -3,38 +3,51 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet">
     <title>Halloween</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <img src="img/Logo.svg" alt="logo">
         <nav>
-            <a href="#Graveyard"></a>
-            <a href="#Track Record"></a>
-            <a href="#Services"></a>
-            <a href="#Know More"></a>
-            <a href="#Support"></a>
+            <a href="#" class="nav-link underline ">Graveyard</a>
+            <a href="#" class="nav-link underline ">Track Record</a>
+            <a href="#" class="nav-link underline ">Services</a>
+            <a href="#" class="nav-link underline ">Know More</a>
+            <a href="#" class="nav-link btn-link">Support</a>
         </nav>
     </header>
 
     <section>
-        <div>
+        <div class="container-left">
             <img src="img/spooky-skull.svg" alt="abóbora">
-            <p>The Labu “Reiza”</p>
-            <p>The Living Pumpkin</p>
+            <div class="container-left-info">
+                <p>The Labu “Reiza”</p>
+                <p>The Living Pumpkin</p>
+            </div>
         </div>
-        <div>
+        <div class="container-right">
             <h2>#3 Top Scariest Ghost 2020</h2>
-            <span>UOOOO TRICK OR TREAT!!</span>
-            <p>Hi I’m Reiza, people call me “The Labu” currently I’m trying to learn something new, building my own bike
-                with parts only made from Malaysia.</p>
-            <button> <img src="img/Btn.svg" alt="botão verde">Book Now</button>
-            <button>Track Record <img src="img/arrow-right.svg" alt="seta para a direita"></button>
+            <div class="container-right-info">
+                <p>UOOOO TRICK OR TREAT!!</p>
+                <p>Hi I'm Reiza, people call me “The Labu” currently I'm trying to learn something new, building my own
+                    bike
+                    with parts only made from Malaysia.</p>
+            </div>
+            <div class="container-actions">
+                <button>Book Now!</button>
+                <a href="#">Track Record <img src="img/arrow-right.svg" alt="seta para a direita" />
+                </a>
+            </div>
         </div>
     </section>
-    <button>See All Ghost</button>
+    <button class="btn-ghost">See All Ghost</button>
 </body>
 
 </html>
