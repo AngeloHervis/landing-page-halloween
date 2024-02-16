@@ -27,4 +27,4 @@ A Landing Page Halloween é um projeto de página de destino temática para a ce
 ## Autor
 Angelo Hervis
 - GitHub: [AngeloHervis](https://github.com/AngeloHervis)
-- LinkedIn: [Angelo Hervis](https://www.linkedin.com/in/angelohervis/)
+- LinkedIn: [Angelo Hervis](https://www.linkedin.com/in/angelo-hervis/)
